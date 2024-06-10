@@ -43,7 +43,6 @@ function updateServerTable() {
     serverTbody.append(newTr);
   }
 }
-​
 
 describe("Servers test (with setup and tear-down)", function() {
     beforeEach(function () {
