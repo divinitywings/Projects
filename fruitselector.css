@@ -1,0 +1,47 @@
+  html {
+    background-image: linear-gradient(to right, yellow, rgba(238, 106, 11, 0.845));
+  }
+
+  body {
+   text-align: center;
+   margin-top: 400px;
+  }
+  
+  .search-container {
+    display: inline-block;
+  }
+  
+  .search-container input,
+  .search-container .suggestions {
+    width: 215px;
+  }
+  .search-container input {
+    padding: 8px;
+    border-radius: 4px;
+    border-color: red;
+    background-color: #db943c;
+  }
+  .search-container .suggestions {
+    position: absolute;
+    background-color: #db943c;
+    width: 234px;
+  }
+  
+  ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
+    text-align: left;
+    margin: 0;
+    padding: 8px 8px;
+    text-decoration: none;
+    display: block;
+    font-size: larger;
+  }
+  ul li:hover {
+    width: 217px;
+    background-color: #e66311
+  }
